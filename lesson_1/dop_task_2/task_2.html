@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+ /*   2.
+Все параматры получаем с клавиатуры!!!!
+Имитируем поведение пешехода на перекстке.
+Если светофор зеленый - вывести "иди".
+Если светофор желтый - вывести "подожди".
+Если светофор красный - вывести "стой".
+Если светофор в аварийном режиме вывести "делай что хочешь"!*/
+    let color = prompt("Enter color");
+    switch (color){
+        case 'green':
+            console.log("Go");
+            break;
+        case 'yellow':
+            console.log("Wait");
+            break;
+        case 'red':
+            console.log("Stop");
+            break;
+        default:
+            console.log("Do that tough")
+            break;
+    }
+</script>
+</body>
+</html>

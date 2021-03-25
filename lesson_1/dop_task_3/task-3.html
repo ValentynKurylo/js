@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*3
+Все параметры получаем с клавиатуры!!!!(prompt , confirm)
+Создать переменную isRoadClear которая характеризирует наличие на дороге машин.
+Улучшаем предыдущее задание.
+Если светофор зеленый и машин нет - вывести "иди".
+Если светофор зеленый и машины есть  - вывести подожди пока нарушители проедут".
+Если светофор желтый и машины есть - вывести "жди".
+Если светофор желтый и машин нет - вывести "все рано жди".
+Если светофор красный и машин нет- вывести "стой все рано".
+Если светофор красный - и машины есть вывести "стой и жди".
+Если светофор в аварийном режиме вывести "делай что хочешь"!*/
+    let color = prompt("Enter color");
+    let isRoadClear = confirm("Is Road clear?")
+    if(color == "green" && isRoadClear == true)
+    {
+        console.log("Go");
+    }
+    else if(color == "green" && isRoadClear == false)
+    {
+        console.log("Wait until car go")
+    }
+    else if(color == "yellow" && isRoadClear == false){
+        console.log("Wait")
+    } else if (color == "yellow" && isRoadClear == true) {
+        console.log("Also Wait")
+    }
+    else if(color == "red" && isRoadClear == true){
+        console.log("Stop");
+    }
+    else if(color == "red" && isRoadClear == false){
+        console.log("Stop and wait");
+    }
+    else{
+        console.log("Do that tough");
+    }
+
+</script>
+</body>
+</html>
