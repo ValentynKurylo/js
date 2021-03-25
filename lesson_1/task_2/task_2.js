@@ -1,3 +1,5 @@
+/*Переприсвоїти кожну змінну з завдання вище на будь які довільні значення.
+  Вивести кожну змінну за допомогою: console.log , alert, document.write*/
 let hello = "hello";
 hello = "hello_1";
 let owu = "owu";
