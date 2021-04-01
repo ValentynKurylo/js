@@ -227,13 +227,11 @@ let citiesWithId = [
 ];
 for (const users of usersWithId) {
     for (const cities of citiesWithId) {
-        for (const user in usersWithId) {
-            for (const city in citiesWithId) {
-                if (users.id === cities.user_id) {
-                    users.address = cities
-                }
-            }
+
+        if (users.id === cities.user_id) {
+            users.address = cities
         }
+
     }
 }
 console.log(usersWithId);
