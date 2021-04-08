@@ -131,7 +131,7 @@ boy.foundGirl(girls, 41)
 // --Створити 10 попелюшок , покласти їх в масив
 // --Сторити об'єкт типу "принц" за допомоги функції конструктора з полями ім'я, вік, туфелька яку він знайшов, та функцію "пошук попелюшки"
 // -- функція повинна приймати масив попелюшок, та шукає ту котра йому підходить
-
+/*
 function Girl(name, age, size) {
         this.name = name
         this.age = age
@@ -166,3 +166,5 @@ let girl_10 = new Girl('Tania', 21, 37.5)
 let girls = [girl_1, girl_2, girl_3, girl_4, girl_5, girl_6, girl_7, girl_8, girl_9, girl_10]
 let  boy = new Boy('Petro', 25, 38)
 boy.foundGirl(girls, 40.2)
+
+ */
